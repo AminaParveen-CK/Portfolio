@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+.nightmode{
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+.darkmode{
+  background-color:  var(--clr-light);
+  color:  var(--clr-dark);
+}

@@ -1,0 +1,31 @@
+:root{
+ .nightmode{
+  --clr-dark : rgb(4, 4, 10);
+  --clr-light : white;
+  --clr-darkbg : #3f0028;
+  --clr-lightbg : #582300;
+  --clr-border : rgb(250, 159, 238);
+  }
+  .daymode{
+    
+  --clr-dark : white;
+  --clr-light : black;
+  --clr-darkbg :rgb(181, 80, 167);
+  --clr-lightbg :rgb(222, 184, 112);
+  --clr-border :rgb(237, 26, 237) ;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+  font-family: 'outfit';
+  height: 100vh;
+}
+
+
+
+

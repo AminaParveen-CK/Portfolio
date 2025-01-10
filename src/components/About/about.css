@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.about{
+    width: 100%;
+    height: auto;
+   padding-bottom: 5%;
+   margin-top: 2%;
+}
+.the-title{
+position: relative;
+margin-bottom: 3%;
+}
+.the-title h1{
+    margin-top: 0%;
+    padding: 0px 30px;
+    font-size: 3rem;
+    font-weight: 300;
+    margin: auto;  
+    z-index: 0;
+}
+.the-title img{
+   width: 8%;
+   height: auto;
+   position: absolute;
+   bottom: 0;
+   right: 42%;
+   z-index: -1;
+}
+.about-content{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+.all-about-profile{
+    margin: auto;
+    width: 40%;
+}
+.about-profile{
+    width: 75%;
+    border-radius: 2rem;
+    background: linear-gradient(245deg, rgb(246, 194, 98),rgb(199, 77, 182));
+    place-items: center;
+    margin: auto;
+}
+.about-profile-img{
+    
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about-profile-img:hover{
+transform: rotate(0);
+}
+.about-profile-img img{
+    width: 100%;
+    margin: auto;
+}
+.about-data{
+    width: 60%;
+    margin: auto;
+}
+.caption p{
+    margin-top: 8%;
+    font-size: 1rem;
+    line-height: 270%;
+    font-family: "Faculty Glyphic", serif;
+    margin-bottom: 5%;
+}
+.about-cards{
+    width: 100%;
+    margin: auto;
+}
+.cards{
+    margin-bottom: 50%;
+    color: var(--clr-light);
+    background-color: var(--clr-dark) !important;
+    border: 1px solid rgb(251, 166, 239);
+    margin: auto;
+    transition: 0.2s;
+}
+.cards:hover{
+    border: 2px solid rgb(185, 3, 161);
+    transform: scale(1.1);
+}
+.cards-title{
+    margin-bottom: 2%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: linear-gradient(267deg,orange,rgb(185, 3, 161));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.cards-data{
+    font-size: 1rem;
+}
+
+/* ===========media queries=========== */
+
+@media only screen and (max-width:  992px) {
+    .all-about-profile{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .the-title h1{
+        font-size: 2.5rem;
+    }
+    .cards{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    .caption p{
+        margin-top: 8%;
+        font-size: 0.9rem;
+        line-height: 180%;
+        margin-bottom: 20px;
+    }
+    .details-links{
+        margin: auto;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .about{
+        padding-top: 5%;
+    }
+    .about-cards{
+       text-align: center;
+    }
+    .cards{ 
+       margin: auto;
+       margin-top: 5%;
+       margin-bottom: 5%;
+    }
+  }  
+  @media only screen and (max-width: 600px) {
+    .about-profile-img img{
+        width: 100%;
+    }
+    .cards{ 
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+     }
+    .cards-title{
+      font-size: 0.9rem;
+     }
+     .about-data{
+        width: 80%;
+     }
+     .all-about-profile{
+        width: 90%;
+     }
+
+}

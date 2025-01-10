@@ -1,0 +1,7 @@
+.footer-page{
+    width: 100%;
+    background-image: linear-gradient(45deg,var(--clr-darkbg),var(--clr-lightbg));
+    color: white;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
