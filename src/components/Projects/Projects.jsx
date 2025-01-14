@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
       <Card.Body>
         <div className='project-card-btns '>
-        <button className='btn btn-git' >GitHub</button>
+        <a href='https://github.com/AminaParveen-CK/Portfolio' className='btn btn-git' >GitHub</a>
          <button className='btn btn-demo' >Live Demo</button>
         </div>
       </Card.Body>
