@@ -51,13 +51,14 @@
 }
 .card-link{
     text-decoration: none;
-    color: rgb(185, 3, 161);
+    color: rgb(185, 51, 167);
 }
 .card-link:hover{
     color: rgb(250, 159, 238);
 }
 .contact-card:hover{
-    background-image: linear-gradient(45deg,#4d3143,#582300 );
+    background-image: linear-gradient(45deg,#763e63,#844a23 );
+    /* background-image: linear-gradient(45deg,#4d3143,#582300 ); */
 }
 .contact-form{
     text-align: left;
