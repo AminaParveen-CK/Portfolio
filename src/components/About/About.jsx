@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import { FaUserGraduate,FaLanguage } from "react-icons/fa6";
 import { FaAward } from "react-icons/fa";
 const About = () => {
-  const [aboutCard, setaboutCard] = useState(
+  const [aboutCard] = useState(
     [
       {icon:<FaUserGraduate color='rgb(255, 104, 250)'/>,title:'Qualification',content1:'MCA',content2:'University of Calicut',content3:'cgpa : 70'},
       {icon:<FaAward color='rgb(255, 104, 250)'/>,title:'Experience',content1:'Internship in Reactjs',content2:'Direct axis Technologies',content3:'Duration : 6 months'},
