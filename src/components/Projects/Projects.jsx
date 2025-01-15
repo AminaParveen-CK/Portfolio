@@ -36,7 +36,7 @@ const Projects = () => {
       <Card.Body>
         <div className='project-card-btns '>
         <a href='https://github.com/AminaParveen-CK/Movies-App' className='btn btn-git' >GitHub</a>
-         <a className='btn btn-demo' >Live Demo</a>
+         <a href='https://movieappsample.netlify.app/' className='btn btn-demo' >Live Demo</a>
         </div>
       </Card.Body>
     </Card>
@@ -48,8 +48,8 @@ const Projects = () => {
         </div>
       <Card.Body>
         <div className='project-card-btns '>
-        <button className='btn btn-git' >GitHub</button>
-         <button className='btn btn-demo' >Live Demo</button>
+        <a href='https://github.com/AminaParveen-CK/Product-Management-System' className='btn btn-git' >GitHub</a>
+         <a href='https://productmanagementsys.netlify.app/' className='btn btn-demo' >Live Demo</a>
         </div>
       </Card.Body>
     </Card>
