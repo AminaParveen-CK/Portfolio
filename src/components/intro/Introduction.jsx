@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './introduction.css'
 import profilepic from '../../images/ai-generated-8775232_640.webp'
-import cv from '../../images/AminaParveen-CV.pdf'
+import cv from '../../images/AminaParveen-Resume.pdf'
 import { Link } from 'react-router-dom';
 
 const Introduction = () => {

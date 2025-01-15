@@ -1,10 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import cv from '../../images/AminaParveen-CV.pdf'
+import cv from '../../images/AminaParveen-Resume.pdf'
 
 const Navbarportfolio = () => {
   return (
