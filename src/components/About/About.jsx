@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './about.css'
 import theme_pattern from '../../images/theme_pattern.svg'
 import Card from 'react-bootstrap/Card';
