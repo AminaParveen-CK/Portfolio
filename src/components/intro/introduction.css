@@ -14,7 +14,7 @@
     padding-top: 0%;
     border: 2px solid rgb(255, 104, 250);
     position: relative;
-    animation: bounce 10s infinite;
+    animation: bounce 8s infinite;
   }
   
   @keyframes bounce {
@@ -32,12 +32,22 @@
 .intro-data h1{
     font-size: 2.2rem;
     width: 85%;
+    margin: 0% 6%;
+    /* animation: slideIn 1s linear alternate; */
 }
+/* @keyframes slideIn {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  } */
 .intro-data span{
     background: linear-gradient(267deg,orange,rgb(185, 3, 161));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
 }
 .intro-data p{
     width: 80%;
