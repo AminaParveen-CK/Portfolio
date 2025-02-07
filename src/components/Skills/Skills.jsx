@@ -25,7 +25,9 @@ const Skills = () => {
         icon:<TfiSettings color='rgb(255, 104, 250)'  size={'3rem'}/>,
         skills:[
             {skill:'Python',percentage:'40%'},
+            {skill:'Node js',percentage:'30%'},
             {skill:'MySQL',percentage:'60%'},
+            {skill:'MongoDB',percentage:'45%'},
         ],
     },
     {
@@ -35,6 +37,7 @@ const Skills = () => {
             {skill:'Git & GitHub',percentage:'85%'},
             {skill:'Visual Studio Code',percentage:'75%'},
             {skill:'Responsive Design',percentage:'90%'},
+            {skill:'npm',percentage:'45%'},
         ],
     },
     {

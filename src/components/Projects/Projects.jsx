@@ -5,8 +5,9 @@ import Card from 'react-bootstrap/Card';
 import portfolioimg from '../../images/portfolio.png' 
 import moviesimg from '../../images/movies.png'
 import PMSimg from '../../images/pmsimage.png'
-import ecommerceimg from "../../images/ecommerce.avif"
+import ecommerceimg from "../../images/ecommerce.png"
 import cateringimg from "../../images/catering.webp"
+
 const Projects = () => {
   return (
     <div className='whole-projects-page'>
@@ -24,7 +25,7 @@ const Projects = () => {
       <Card.Body>
         <div className='project-card-btns '>
         <a href='https://github.com/AminaParveen-CK/Portfolio' className='btn btn-git' >GitHub</a>
-         <button className='btn btn-demo' >Live Demo</button>
+         <a className='btn btn-demo' >Live Demo</a>
         </div>
       </Card.Body>
     </Card>
@@ -36,7 +37,7 @@ const Projects = () => {
       <Card.Body>
         <div className='project-card-btns '>
         <a href='https://github.com/AminaParveen-CK/Movies-App' className='btn btn-git' >GitHub</a>
-         <a href='https://movieappsample.netlify.app/' className='btn btn-demo' >Live Demo</a>
+         <a href='https://samplemovie.netlify.app/' className='btn btn-demo' >Live Demo</a>
         </div>
       </Card.Body>
     </Card>
@@ -61,8 +62,8 @@ const Projects = () => {
         </div>
       <Card.Body>
         <div className='project-card-btns '>
-        <button className='btn btn-git' >GitHub</button>
-         <button className='btn btn-demo' >Live Demo</button>
+        <a href='https://github.com/AminaParveen-CK/E-commerce' className='btn btn-git' >GitHub</a>
+         <a href='https://ecommercemain.netlify.app/' className='btn btn-demo' >Live Demo</a>
         </div>
       </Card.Body>
     </Card>

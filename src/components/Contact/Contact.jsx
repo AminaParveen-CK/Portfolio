@@ -9,6 +9,8 @@ import { BiPhoneCall } from "react-icons/bi";
 import './contact.css'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import { toast } from 'react-toastify';
+
 const Contact = () => {
   emailjs.init('F5i4_UKfSE0c7N-F1');
   const form=useRef()
@@ -26,6 +28,7 @@ console.log('submitted');
           console.log('FAILED...', error.text);
         },
       );
+      toast.success("Email send successfully")
       e.target.reset()
   };
   return (

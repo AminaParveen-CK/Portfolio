@@ -9,6 +9,7 @@ import Home from './components/Home';
 import { useState } from 'react';
 import { GoSun } from 'react-icons/go';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [Daymode, setDaymode] = useState(false);
@@ -31,6 +32,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
       </BrowserRouter>
+      <ToastContainer/>
      
       </div>
      </div>
